@@ -34,6 +34,30 @@ This is a hands-on workshop where we explore Unity as a tool and develop a simpl
   - Implementing the game timer
     - Ending and reseting game
 - **Playtesting with Prototype - Game assessment**
-- Adding the Bop, Pop and Zap :lightning:
+- Adding the Bop, Pop and Zap ✨
+  - Player Model (Dragon or other)
+    - Import model, check animations
+    - Configuring animations using the `Animator`
+    - Link animations to character controller
+  - Sounds
+    - Unity `Audio Listener` and `Audio Source`
+    - Adding sound effects and background music
+  - Visual Polish
+    - Glow effect using HDR and Bloom after effect
+    - VFX ?
+  - Add skybox to the world
+- If extra time:
+  - Add powerups / attacks
+  - Add UI / Main Menu
+  - Character Selection?
+  - End game animation?
+- If a lot of extra time:
+  - Online multiplayer
+
+
+
+
+
+
 
 
