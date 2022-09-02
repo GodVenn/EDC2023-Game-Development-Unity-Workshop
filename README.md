@@ -1,4 +1,4 @@
-# EDC2022-Game-Development-Unity-Workshop
+# EDC2022 - Game Development in Unity
 This is a hands-on workshop where we explore Unity as a tool and develop a simple **3D platformer local-multiplayer game** from epmpty project to deployed .exe file.
 
 ## Workshop Outline
