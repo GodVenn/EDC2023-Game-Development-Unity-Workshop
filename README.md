@@ -1,5 +1,5 @@
 # EDC2022 - Game Development in Unity
-This is a hands-on workshop where we explore Unity as a tool and develop a simple **3D platformer local-multiplayer game** from epmpty project to deployed .exe file.
+This is a hands-on workshop where we explore Unity as a tool and develop a simple **3D platformer local-multiplayer game** from empty project to deployed .exe file.
 
 ## Workshop Outline
 
@@ -14,7 +14,7 @@ This is a hands-on workshop where we explore Unity as a tool and develop a simpl
   - Hierarchy
   - `Prefabs`
   - Game Objects - Conclusion
-- Description of the game we will create
+- Outline of the game
 - Creating the game Prototype
   - The first cube
     - Painting the cube (`Material`)
