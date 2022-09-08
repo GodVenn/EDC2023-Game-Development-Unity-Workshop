@@ -4,7 +4,7 @@ This is a hands-on workshop where we explore Unity as a tool and develop a simpl
 ## Preparation (Before the workshop begins)
 
 - I strongly recommend having a **mouse** (not mousepad)
-- Those that have a gamepad 🎮 (wireless or otherwise), please bring it if you can (I have 2 and we need at least 1 per 2 people for playtesting)
+- Those that have a gamepad 🎮 (wireless or otherwise), please bring it if you can (I have 2 and we need at least 1 per 2 people for playtesting = At least 15 gamepads)
 - I recommend a windows machine beacuse that is what i will be using, but Unity also works on MacOS and Linux.
 - I recommend Visual Studio (Community/Entreprise/Professional) as the IDE as this works well with Unity debugging and C# programming, but any code editor will do the trick.
 - For VS Code users: 
