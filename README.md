@@ -1,6 +1,21 @@
 # EDC2022 - Game Development in Unity
 This is a hands-on workshop where we explore Unity as a tool and develop a simple **3D platformer local-multiplayer game** from empty project to deployed .exe file.
 
+## Preparation (Before the workshop begins)
+
+- I strongly recommend having a **mouse** (not mousepad)
+- Those that have a gamepad 🎮 (wireless or otherwise), please bring it if you can (I have 2 and we need at least 1 per 2 people for playtesting)
+- I recommend a windows machine beacuse that is what i will be using, but Unity also works on MacOS and Linux.
+- I recommend Visual Studio (Community/Entreprise/Professional) as the IDE as this works well with Unity debugging and C# programming, but any code editor will do the trick.
+- For VS Code users: 
+  - Install the unity package: https://docs.unity3d.com/Manual/com.unity.ide.vscode.html
+
+### Pre-install process
+- Create a **Unity User** - Use your Equinor e-mail
+- Install the latest version of **Unity Hub** for your OS from [here](https://unity.com/download)
+- **After installing Unity Hub**: Install **Unity Editor** [v2021.3.1f](https://unity3d.com/unity/whats-new/2021.1.3) (click **Install this version with Unity Hub.**).
+- We will activate 7-day licenses for each participant the first day of the workshop
+
 ## Workshop Outline
 
 - Introduction, Setup - Open empty Unity Project
@@ -54,10 +69,13 @@ This is a hands-on workshop where we explore Unity as a tool and develop a simpl
 - If a lot of extra time:
   - Online multiplayer
 
+## Resources for reference:
 
+Free textures and more:
+https://polyhaven.com/
 
+Free animations and rigs (create user but free to use):
+https://www.mixamo.com/
 
-
-
-
-
+Unity Asset Store:
+- Dragon package: https://assetstore.unity.com/packages/3d/characters/creatures/dragon-for-boss-monster-hp-79398
