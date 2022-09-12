@@ -8,7 +8,6 @@ This is a hands-on workshop where we explore Unity as a tool and develop a simpl
 - I recommend a windows machine beacuse that is what i will be using, but Unity also works on MacOS and Linux.
 - I recommend Visual Studio (Community/Entreprise/Professional) as the IDE as this works well with Unity debugging and C# programming, but any code editor will do the trick.
 - For VS Code users: 
-  - Install the unity package: https://docs.unity3d.com/Manual/com.unity.ide.vscode.html
   - Install the C# extension from the VS Code Marketplace: https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp
   - Documentation: https://code.visualstudio.com/docs/other/unity
   
@@ -24,6 +23,7 @@ This is a hands-on workshop where we explore Unity as a tool and develop a simpl
 - Introduction, Setup - Open empty Unity Project
   - Use 3D URP Template 
   - Vs code users: Add VS Code Unity Package to project
+    - https://docs.unity3d.com/Manual/com.unity.ide.vscode.html 
   - Set external editor -> Regenerate project files
 - Interface overview of Unity
   - Windows, Layout, Buttons, Shortcuts
