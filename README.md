@@ -76,11 +76,13 @@ This is a hands-on workshop where we explore Unity as a tool and develop a simpl
 
 ## Resources for reference:
 
-Free textures and more:
+Free textures and more:  
 https://polyhaven.com/
 
-Free animations and rigs (create user but free to use):
+Free animations and rigs (create user but free to use):  
 https://www.mixamo.com/
 
-Unity Asset Store:
+Unity Asset Store:  
 - Dragon package: https://assetstore.unity.com/packages/3d/characters/creatures/dragon-for-boss-monster-hp-79398
+- Sound effects: https://assetstore.unity.com/packages/audio/sound-fx/free-casual-game-sfx-pack-54116
+- Skybox: https://assetstore.unity.com/packages/2d/textures-materials/sky/starfield-skybox-92717
