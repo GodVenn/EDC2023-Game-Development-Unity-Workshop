@@ -9,9 +9,9 @@ public class CharacterControllerScript : MonoBehaviour
 
     public float Gravity;
     
-    public float JumpHeight = 2f;
-    public float Speed = 5f;
-    public float RotationSpeed = 5f;
+    public float JumpHeight;
+    public float Speed;
+    public float RotationSpeed;
 
     public Vector3 Velocity = Vector3.zero;
 
@@ -19,12 +19,14 @@ public class CharacterControllerScript : MonoBehaviour
     private Vector2 LookInput;
 
     private bool _jumpTriggered;
+    private bool _sprintButtonActivated;
 
     // Start is called before the first frame update
     void Start()
     {
         Controller = GetComponent<CharacterController>();
         Gravity = Physics.gravity.y;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame
@@ -40,8 +42,14 @@ public class CharacterControllerScript : MonoBehaviour
 
     private void HandleHorizontalMovement()
     {
-        Velocity.x = MoveInput.x * Speed;
-        Velocity.z = MoveInput.y * Speed;
+        float currentSpeed = Speed;
+        if (_sprintButtonActivated)
+            currentSpeed = Speed * 2f;
+
+        Vector3 forward = MoveInput.y * currentSpeed * transform.forward;
+        Vector3 sideways = MoveInput.x * currentSpeed * transform.right;
+        Velocity.x = forward.x + sideways.x;
+        Velocity.z = forward.z + sideways.z;
     }
 
     private void HandleVerticalMovement()
@@ -74,5 +82,10 @@ public class CharacterControllerScript : MonoBehaviour
     public void OnLookInput(CallbackContext context)
     {
         LookInput = context.ReadValue<Vector2>();
+    }
+
+    public void OnSprintInput(CallbackContext context)
+    {
+        _sprintButtonActivated = context.ReadValueAsButton();
     }
 }
