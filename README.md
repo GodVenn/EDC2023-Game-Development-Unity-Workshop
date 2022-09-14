@@ -1,6 +1,10 @@
 # EDC2022 - Game Development in Unity
 This is a hands-on workshop where we explore Unity as a tool and develop a simple **3D platformer local-multiplayer game** from empty project to deployed .exe file.
 
+## Projects
+The "Final Project" contains something more final version of the game we tried to make, but there is still a lot that could be added.  
+The "My Project" contains the last version of the project we achieved in the workshop.
+
 ## Preparation (Before the workshop begins)
 
 - I strongly recommend having a **mouse** (not mousepad)
