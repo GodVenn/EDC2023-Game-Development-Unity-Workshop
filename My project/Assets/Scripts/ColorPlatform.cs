@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ColorPlatform : MonoBehaviour
 {
+    public Player CurrentOwner;
+
     public Color BaseColor;
     private Renderer _renderer;
     private MaterialPropertyBlock _propBlock;
@@ -38,4 +40,5 @@ public class ColorPlatform : MonoBehaviour
 
         _renderer.SetPropertyBlock(_propBlock);
     }
+
 }

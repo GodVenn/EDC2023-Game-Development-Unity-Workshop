@@ -49,7 +49,15 @@ public class Player : MonoBehaviour
         if (hit.gameObject.CompareTag("Platform"))
         {
             ColorPlatform platform = hit.gameObject.GetComponent<ColorPlatform>();
-            platform.SetColor(Color);
+            if (platform.CurrentOwner != this)
+            {
+                if(platform.CurrentOwner != null)
+                    platform.CurrentOwner.Score -= 1;
+
+                platform.CurrentOwner = this;
+                platform.SetColor(Color);
+                Score++;
+            }
         }
     }
 
