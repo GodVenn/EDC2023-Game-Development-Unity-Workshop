@@ -340,4 +340,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaa78329d8aa95747a57984eed8e6745, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreUI: {fileID: 0}
+  ScoreTable: {fileID: 0}
+  ScorePrefab: {fileID: 3007450322756826901, guid: 5bfa1dbecaed2a3438879c383a44bd81,
+    type: 3}
   Color: {r: 0.990566, g: 0, b: 0, a: 0}
