@@ -17,5 +17,11 @@ public class CharacterController : MonoBehaviour
         {
             transform.position = transform.position + Vector3.up * 1;
         }
+
+        float leftRight = Input.GetAxis("Horizontal");
+        float forwardBackward = Input.GetAxis("Vertical");
+
+        float speed = 1;
+        transform.position += new Vector3(leftRight, 0, forwardBackward) * speed * Time.deltaTime;
     }
 }
