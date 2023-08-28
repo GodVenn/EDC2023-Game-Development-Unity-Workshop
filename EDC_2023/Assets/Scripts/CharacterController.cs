@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CharacterController : MonoBehaviour
 {
+    public float Speed = 1;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +23,6 @@ public class CharacterController : MonoBehaviour
         float leftRight = Input.GetAxis("Horizontal");
         float forwardBackward = Input.GetAxis("Vertical");
 
-        float speed = 1;
-        transform.position += new Vector3(leftRight, 0, forwardBackward) * speed * Time.deltaTime;
+        transform.position += new Vector3(leftRight, 0, forwardBackward) * Speed * Time.deltaTime;
     }
 }
