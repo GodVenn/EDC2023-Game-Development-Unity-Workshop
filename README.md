@@ -1,33 +1,35 @@
-# EDC2022 - Game Development in Unity
+# EDC - Game Development in Unity
+
 This is a hands-on workshop where we explore Unity as a tool and develop a simple **3D platformer local-multiplayer game** from empty project to deployed .exe file.
 
 ## Projects
-The "Final Project" contains something more final version of the game we tried to make, but there is still a lot that could be added.  
-The "My Project" contains the last version of the project we achieved in the workshop.
+
+The "Final Project" in the 2022 folder contains the target game for last year.  
+The EDC 2023 contains the WIP / target game for 2023.
 
 ## Preparation (Before the workshop begins)
 
 - I strongly recommend having a **mouse** (not mousepad)
-- Those that have a gamepad 🎮 (wireless or otherwise), please bring it if you can (I have 2 and we need at least 1 per 2 people for playtesting = At least 15 gamepads)
+- Those that have a gamepad 🎮 (wireless or otherwise), please bring it if you can, we need as many as possible.
 - I recommend a windows machine beacuse that is what i will be using, but Unity also works on MacOS and Linux.
 - I recommend Visual Studio (Community/Entreprise/Professional) as the IDE as this works well with Unity debugging and C# programming, but any code editor will do the trick.
-- For VS Code users: 
+- For VS Code users:
   - Install the C# extension from the VS Code Marketplace: https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp
   - Documentation: https://code.visualstudio.com/docs/other/unity
-  
 
 ### Pre-install process
+
 - Create a **Unity User** - Use your Equinor e-mail
 - Install the latest version of **Unity Hub** for your OS from [here](https://unity.com/download)
-- **After installing Unity Hub**: Install **Unity Editor** [v2021.3.1f](https://unity3d.com/unity/whats-new/2021.1.3) (click **Install this version with Unity Hub.**).
-- We will activate 7-day licenses for each participant the first day of the workshop
+- **After installing Unity Hub**: Install **Unity Editor** [v2021.3.29f](https://unity.com/releases/editor/whats-new/2021.3.29) (click **Install this version with Unity Hub.**).
+- We will activate trial licenses for each participant the first day of the workshop
 
 ## Workshop Outline
 
 - Introduction, Setup - Open empty Unity Project
-  - Use 3D URP Template 
+  - Use 3D URP Template
   - Vs code users: Add VS Code Unity Package to project
-    - https://docs.unity3d.com/Manual/com.unity.ide.vscode.html 
+    - https://docs.unity3d.com/Manual/com.unity.ide.vscode.html
   - Set external editor -> Regenerate project files
 - Interface overview of Unity
   - Windows, Layout, Buttons, Shortcuts
@@ -86,7 +88,9 @@ https://polyhaven.com/
 Free animations and rigs (create user but free to use):  
 https://www.mixamo.com/
 
-Unity Asset Store:  
+Unity Asset Store:
+
 - Dragon package: https://assetstore.unity.com/packages/3d/characters/creatures/dragon-for-boss-monster-hp-79398
 - Sound effects: https://assetstore.unity.com/packages/audio/sound-fx/free-casual-game-sfx-pack-54116
 - Skybox: https://assetstore.unity.com/packages/2d/textures-materials/sky/starfield-skybox-92717
+- Third Person Character Controller: https://assetstore.unity.com/packages/essentials/starter-assets-third-person-character-controller-urp-196526
