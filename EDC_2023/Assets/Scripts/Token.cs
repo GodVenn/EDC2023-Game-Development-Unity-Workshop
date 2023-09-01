@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 [RequireComponent(typeof(Collider))]
@@ -9,8 +10,9 @@ public class Token : MonoBehaviour
         {
             Player player = other.gameObject.GetComponent<Player>();
             player.Score++;
+            GameManager.instance.OnTokenDisabled(this);
             gameObject.SetActive(false);
         }
     }
-    
+
 }
