@@ -59,9 +59,10 @@ namespace StarterAssets
         [Tooltip("What layers the character uses as ground")]
         public LayerMask GroundLayers;
 
-        [Header("Cinemachine")]
+        [Header("Camera")]
         [Tooltip("The follow target set in the Cinemachine Virtual Camera that the camera will follow")]
         public GameObject CinemachineCameraTarget;
+        public GameObject Camera;
 
         [Tooltip("How far in degrees can you move the camera up")]
         public float TopClamp = 70.0f;
@@ -125,11 +126,7 @@ namespace StarterAssets
 
         private void Awake()
         {
-            // get a reference to our main camera
-            if (_mainCamera == null)
-            {
-                _mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
-            }
+            _mainCamera = Camera;
         }
 
         private void Start()
