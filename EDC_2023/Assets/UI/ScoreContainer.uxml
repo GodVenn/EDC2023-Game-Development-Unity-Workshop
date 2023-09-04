@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/UIStylesheet.uss?fileID=7433441132597879392&amp;guid=6d2daf5305e1dce40846668770dcddf7&amp;type=3#UIStylesheet" />
+    <ui:VisualElement style="width: auto; height: auto; background-color: rgba(0, 0, 0, 0); top: auto; right: auto; left: auto; align-items: flex-end; margin-right: 20px; margin-top: 20px;">
+        <ui:VisualElement name="ScoreContainer" style="background-color: rgba(140, 140, 140, 0.56); border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -10,7 +10,7 @@ public class Token : MonoBehaviour
         {
             Player player = other.gameObject.GetComponent<Player>();
             player.Score++;
-            GameManager.instance.OnTokenDisabled(this);
+            GameManager.instance.OnTokenCaptured(this, player);
             gameObject.SetActive(false);
         }
     }
