@@ -6,6 +6,7 @@ public class Projectile : MonoBehaviour
 {
     public float Speed = 10f;
     public float MaxLifetime = 30f;
+    public GameObject ExplosionPrefab;
 
     private void Start()
     {
@@ -26,7 +27,8 @@ public class Projectile : MonoBehaviour
             player.OnHitByProjectile(this);
         }
         
-        Debug.Log("Hit something");
+        Instantiate(ExplosionPrefab, collision.ClosestPointOnBounds(transform.position), transform.rotation);
+
         Destroy(gameObject);
     }
 

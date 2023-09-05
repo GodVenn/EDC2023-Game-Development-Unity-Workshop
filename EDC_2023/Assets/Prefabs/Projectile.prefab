@@ -60,8 +60,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eddbf45e89dd014eb330611978f4698, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 10
+  Speed: 30
   MaxLifetime: 30
+  ExplosionPrefab: {fileID: 1337198075554910, guid: 59b6a3a02fb1926449db97247e6a58d7,
+    type: 3}
 --- !u!54 &6090682483092786578
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -182,6 +184,11 @@ PrefabInstance:
         type: 3}
       propertyPath: InitialModule.startSpeed.minScalar
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198706150799401992, guid: a990e3ac1318b834488c784d851f42a9,
+        type: 3}
+      propertyPath: prewarm
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 198706150799401992, guid: a990e3ac1318b834488c784d851f42a9,
         type: 3}
