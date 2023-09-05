@@ -6,7 +6,15 @@ using UnityEngine.UIElements;
 
 public class Player : MonoBehaviour
 {
-    public int Score;
+    private int _score;
+    public int Score { 
+        get { return _score; } 
+        set
+        {
+            _score = value;
+            UiScore.text = value.ToString();
+        } 
+    }
     public Label UiScore;
 
     #region Attack
@@ -21,7 +29,7 @@ public class Player : MonoBehaviour
 
     public void OnHitByProjectile(Projectile projectile)
     {
-        Debug.Log("Hit");
+        Score--;
     }
 
     // Called by Input System

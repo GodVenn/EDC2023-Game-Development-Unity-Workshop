@@ -32,10 +32,9 @@ public class GameManager : MonoBehaviour
         UnityEngine.Cursor.lockState = CursorLockMode.Locked;
     }
 
-    public void OnTokenCaptured(Token token, Player player)
+    public void OnTokenCaptured(Token token)
     {
         StartCoroutine(ReActivateAtRandomTime(token));
-        player.UiScore.text = player.Score.ToString();
     }
 
     public void OnPlayerJoined(PlayerInput playerInput)
@@ -45,7 +44,7 @@ public class GameManager : MonoBehaviour
         var newScore = UIScoreTemplate.Instantiate();
         _scoresContainer.Add(newScore);
         player.UiScore = newScore.Q<Label>("ScoreValue");
-        player.UiScore.text = "0";
+        player.Score = 0;
         var playerName = newScore.Q<Label>("PlayerName");
         playerName.text = "Player " + playerCount + ": ";
     }
