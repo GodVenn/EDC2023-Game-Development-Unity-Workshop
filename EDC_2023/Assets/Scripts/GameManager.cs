@@ -27,6 +27,11 @@ public class GameManager : MonoBehaviour
         _scoresContainer = UIScoresContainer.rootVisualElement.Q("ScoreContainer");
     }
 
+    private void Start()
+    {
+        UnityEngine.Cursor.lockState = CursorLockMode.Locked;
+    }
+
     public void OnTokenCaptured(Token token, Player player)
     {
         StartCoroutine(ReActivateAtRandomTime(token));
