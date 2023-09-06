@@ -340,6 +340,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 494cad498d94af7489f4d064e21935a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CaptureTokenSfx: {fileID: 8300000, guid: ffb159a21c8a04135a5616979c828fab, type: 3}
 --- !u!1 &9150318626620497495
 GameObject:
   m_ObjectHideFlags: 0
