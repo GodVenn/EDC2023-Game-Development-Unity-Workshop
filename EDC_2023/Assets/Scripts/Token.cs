@@ -1,9 +1,17 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Collider))]
+[RequireComponent (typeof(Animator))]
 public class Token : MonoBehaviour
 {
     public AudioClip CaptureTokenSfx;
+
+    private Animator _animator;
+
+    private void Awake()
+    {
+        _animator = GetComponent<Animator>();   
+    }
 
     private void OnTriggerEnter(Collider other)
     {
@@ -13,11 +21,16 @@ public class Token : MonoBehaviour
             player.Score++;
             GameManager.instance.OnTokenCaptured(this);
 
-            AudioSource.PlayClipAtPoint(CaptureTokenSfx, transform.position);
-
-            gameObject.SetActive(false);
-
+            _animator.SetTrigger("Die");
         }
+    }
+
+    // Called by animator
+    private void OnDeathFinish()
+    {
+        AudioSource.PlayClipAtPoint(CaptureTokenSfx, transform.position);
+
+        gameObject.SetActive(false);
     }
 
 }

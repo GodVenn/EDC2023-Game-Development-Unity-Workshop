@@ -252,7 +252,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2e9f7e795531e7438dda996271c5b42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Score: 0
   ProjectileSpawnPoint: {fileID: 1471413834643624651}
   ProjectilePrefab: {fileID: 9006400189659672300, guid: 1e6f4e894be2cd048ad469b980f8ece7,
     type: 3}
