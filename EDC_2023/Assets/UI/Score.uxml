@@ -1,6 +1,6 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/UIStylesheet.uss?fileID=7433441132597879392&amp;guid=6d2daf5305e1dce40846668770dcddf7&amp;type=3#UIStylesheet" />
-    <ui:VisualElement style="flex-direction: row; justify-content: space-between;">
+    <ui:VisualElement style="flex-direction: row; justify-content: space-between; -unity-font-definition: url(&apos;project://database/Assets/AAbsoluteEmpire-EaXpg%20SDF.asset?fileID=11400000&amp;guid=8ded7d80e9811a340b5e4e93277aee88&amp;type=2#AAbsoluteEmpire-EaXpg SDF&apos;); font-size: 27px;">
         <ui:Label text="Player1" display-tooltip-when-elided="true" name="PlayerName" class="PlayerName" />
         <ui:Label text="100" display-tooltip-when-elided="true" name="ScoreValue" class="PlayerName" />
     </ui:VisualElement>

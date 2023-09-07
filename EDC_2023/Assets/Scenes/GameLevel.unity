@@ -1340,6 +1340,7 @@ MonoBehaviour:
   UIScoresContainer: {fileID: 1979352264}
   UIScoreTemplate: {fileID: 9197481963319205126, guid: 65636f18ab9284e409a98633f23ddd48,
     type: 3}
+  MinRespawnTime: 5
   MaxRespawnTime: 10
 --- !u!82 &1096760764
 AudioSource:
