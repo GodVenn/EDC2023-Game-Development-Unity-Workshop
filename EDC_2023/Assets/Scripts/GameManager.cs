@@ -12,7 +12,8 @@ public class GameManager : MonoBehaviour
 
     private VisualElement _scoresContainer;
 
-    public float MaxRespawnTime = 10f;
+    public float MinRespawnTime = 5f;
+    public float MaxRespawnTime = 20f;
     public static GameManager instance;
 
     private int playerCount = 0;
@@ -51,10 +52,8 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator ReActivateAtRandomTime(Token token)
     {
-        float delay = Random.Range(0f, MaxRespawnTime);
-        Debug.Log(delay);
+        float delay = Random.Range(MinRespawnTime, MaxRespawnTime);
         yield return new WaitForSeconds(delay);
-        Debug.Log("Respawn");
         token.gameObject.SetActive(true);
     }
 }
