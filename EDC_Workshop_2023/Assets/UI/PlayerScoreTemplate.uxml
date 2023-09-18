@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="PlayerScore" style="flex-direction: row;">
+        <ui:Label text="Player1" display-tooltip-when-elided="true" name="PlayerName" class="ScoreText" />
+        <ui:Label name="ScoreValue" text="100" class="ScoreText" />
+    </ui:VisualElement>
+</ui:UXML>
